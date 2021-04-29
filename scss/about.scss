@@ -1,0 +1,68 @@
+.about {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    background: url("../img/bg/about__bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 670px;
+    z-index: 2;
+}
+
+.about__container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.promo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    max-width: 780px;
+    margin: 100px auto auto auto;
+}
+
+.promo__item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.promo__heading {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.2em;
+    font-family: "Playfair Display", sans-serif;
+    text-transform: none;
+    margin: 0;
+}
+
+.promo__text {
+    margin: 30px auto 0;
+}
+
+.promo__divider {
+    background-color: #00e0d0;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.btn--promo {
+    margin-top: 50px;
+}
+
+.promo-nav {
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.promo-nav__item {
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -1,0 +1,30 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback__title {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.feedback__form {
+    width: 460px;
+}
+
+.feedback__input,
+.feedback__textarea {
+    margin-bottom: 21px;
+}
+
+.feedback__textarea {
+    resize: vertical;
+}
+
+.btn--feedback {
+    padding: 10px 30px;
+}
+
+.btn__wrapper {
+    text-align: center;
+}

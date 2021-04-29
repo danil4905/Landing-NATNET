@@ -1,0 +1,151 @@
+.testimonials {
+    background: url("../img/bg/testimonials__bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 514px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.testimonials__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.quotes::before {
+    content: "“";
+    display: block;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 63px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.quotes__item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.quotes__text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625em;
+    letter-spacing: 0.025em;
+    font-family: "Playfair Display", sans-serif;
+    margin-bottom: 50px;
+}
+
+.quotes__author {
+    font-weight: 100;
+    font-size: 0.813rem;
+    line-height: 1.2em;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.quotes__userpic-wrapper {
+    display: none;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+}
+
+.quotes__name {
+    display: block;
+    font-weight: 700;
+    font-size: 0.825rem;
+    margin-bottom: 6px;
+}
+
+.quotes__job {
+    display: block;
+}
+
+.quotes-nav {
+    height: 70px;
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.owl-prev,
+.owl-next {
+    margin-top: 0px;
+    width: 14px;
+    height: 14px;
+    font-size: 20px;
+    border: solid #ffffff;
+    cursor: pointer;
+}
+
+.owl-prev {
+    margin-right: 13px;
+    border-width: 0 0 1px 1px;
+    transform: rotate(45deg);
+}
+
+.owl-next {
+    border-width: 1px 1px 0 0;
+    transform: rotate(45deg);
+}
+
+.quotes-nav__dots {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.quotes-nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.quotes-nav__dot {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    transition: all .15s ease;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.quotes-nav__dot--1 {
+    background-image: url("../img/authors/1.jpg");
+}
+
+.quotes-nav__dot--2 {
+    background-image: url("../img/authors/2.jpg");
+}
+
+.quotes-nav__dot--3 {
+    background-image: url("../img/authors/3.jpg");
+}
+
+.quotes-nav__dot--4 {
+    background-image: url("../img/authors/4.jpg");
+}
+
+.quotes-nav__dot--5 {
+    background-image: url("../img/authors/5.jpg");
+}
+
+.active .quotes-nav__dot {
+    width: 70px;
+    height: 70px;
+    transition: all .15s ease;
+}
+
+.quotes__userpic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}

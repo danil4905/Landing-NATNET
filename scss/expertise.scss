@@ -1,0 +1,86 @@
+.expertise {
+    text-align: center;
+}
+
+.expertise__title {
+    margin: 0 0 8px;
+}
+
+.expertise__subtitle {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.expertise__divider {
+    background-color: #2f2d35;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.feature__item {
+    width: 300px;
+    padding: 40px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.feature__ico {
+    margin: auto;
+    flex: 1 0 50px;
+    margin-bottom: 20px;
+    background: url("../img/icons/feature__sprite.png") no-repeat;
+}
+
+.feature__ico--webdev {
+    width: 49px;
+    height: 50px;
+    background-position: -214px -5px;
+}
+
+.feature__ico--art {
+    width: 50px;
+    height: 42px;
+    background-position: -5px -5px;
+}
+
+.feature__ico--mobile {
+    width: 28px;
+    height: 50px;
+    background-position: -176px -5px;
+}
+
+.feature__ico--seo {
+    width: 50px;
+    height: 50px;
+    background-position: -273px -5px;
+}
+
+.feature__ico--gamedev {
+    width: 41px;
+    height: 50px;
+    background-position: -65px -5px;
+}
+
+.feature__ico--love {
+    width: 50px;
+    height: 46px;
+    background-position: -116px -5px;
+}
+
+.feature__title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.2em;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.feature__text {
+    width: 80%;
+}

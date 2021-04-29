@@ -1,0 +1,39 @@
+.video {
+    background: url("../img/bg/video__bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-btn {
+    display: block;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all .15s ease;
+
+    &:hover {
+        color: #00e0d0;
+        transition: all .15s ease;
+
+        .video-btn__icon {
+            stroke: #00e0d0;
+            transition: all .15s ease;
+        }
+    }
+}
+
+.video-btn__icon {
+    display: block;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 30px;
+    stroke: #ffffff;
+    transition: all .15s ease;
+}
