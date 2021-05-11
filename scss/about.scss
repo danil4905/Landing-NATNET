@@ -21,7 +21,7 @@
     flex-flow: column nowrap;
     align-items: flex-end;
     justify-content: center;
-    max-width: 780px;
+    max-width: 790px;
     margin: 100px auto auto auto;
 }
 
@@ -35,15 +35,19 @@
 
 .promo__heading {
     font-weight: 900;
-    font-size: 2rem;
-    line-height: 1.2em;
+    font-size: 32px;
+    line-height: normal;
     font-family: "Playfair Display", sans-serif;
     text-transform: none;
-    margin: 0;
+    letter-spacing: 0.5px;
+    margin-top: 48px;
 }
 
 .promo__text {
-    margin: 30px auto 0;
+    margin: 10px auto 0;
+    max-width: 775px;
+    letter-spacing: 0.68px;
+    line-height: 23px;
 }
 
 .promo__divider {
@@ -53,7 +57,7 @@
 }
 
 .btn--promo {
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
 .promo-nav {

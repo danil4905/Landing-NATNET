@@ -3,6 +3,7 @@
     background-size: cover;
     min-height: 712px;
     display: flex;
+    margin-top: -13px;
     flex-flow: column nowrap;
 }
 
@@ -15,29 +16,30 @@
 }
 
 .team__title {
-    margin: 0 auto 8px;
+    margin: -3px auto 8px;
 }
 
 .team__subtitle {
-    margin: 0 auto 10px;
+    margin: -25px auto 0px;
+    letter-spacing: 1.3px;
 }
 
 .team__divider {
     background-color: #ffffff;
-    margin: 0 auto 70px;
+    margin: -12px auto 0px;
 }
 
 .staff {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: 940px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .staff__item {
     text-align: center;
     transition: all .2s ease;
-    margin-bottom: 40px;
     margin-right: 20px;
     border: 1px solid #e1e1e1;
     cursor: pointer;
@@ -61,7 +63,7 @@
 }
 
 .staff__photo-wrapper {
-    width: 220px;
+    width: 218px;
     height: 229px;
     margin-bottom: 20px;
 }
@@ -75,7 +77,7 @@
 .staff__name {
     display: block;
     font-weight: 700;
-    font-size: 0.825rem;
+    font-size: 15px;
     margin-bottom: 6px;
 }
 
@@ -85,6 +87,7 @@
 }
 
 .team__text {
-    margin-top: 0;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: -6px;
+    letter-spacing: 0.759px;
 }

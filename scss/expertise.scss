@@ -3,12 +3,13 @@
 }
 
 .expertise__title {
-    margin: 0 0 8px;
+    margin: -5px 0 8px;
 }
 
 .expertise__subtitle {
     color: #000000;
     margin-bottom: 15px;
+    letter-spacing: 1.4px;
 }
 
 .expertise__divider {
@@ -19,7 +20,8 @@
 .feature {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
 }
 
 .feature__item {
@@ -27,13 +29,12 @@
     padding: 40px 0;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .feature__ico {
-    margin: auto;
+    margin: 0 auto 31px auto;
     flex: 1 0 50px;
-    margin-bottom: 20px;
     background: url("../img/icons/feature__sprite.png") no-repeat;
 }
 
@@ -79,8 +80,11 @@
     line-height: 1.2em;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
+    margin-bottom: 19px;
 }
 
 .feature__text {
-    width: 80%;
+    width: 88%;
+        letter-spacing:0.67px;
+
 }
