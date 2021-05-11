@@ -16,8 +16,10 @@
 .quotes::before {
     content: "“";
     display: block;
+    margin-top: -6px;
+    margin-bottom: 4px;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 63px;
     font-family: "Playfair Display", sans-serif;
 }
@@ -31,16 +33,18 @@
 .quotes__text {
     font-weight: 400;
     font-size: 1rem;
+    max-width: 780px;
     line-height: 1.625em;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.4px;
     font-family: "Playfair Display", sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 46px;
 }
 
 .quotes__author {
     font-weight: 100;
     font-size: 0.813rem;
     line-height: 1.2em;
+    letter-spacing: 0.7px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
@@ -65,7 +69,7 @@
 
 .quotes-nav {
     height: 70px;
-    margin-top: 50px;
+    margin-top: 45px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -85,12 +89,12 @@
 
 .owl-prev {
     margin-right: 13px;
-    border-width: 0 0 1px 1px;
-    transform: rotate(45deg);
+    border-width: 0 0 0 0 ;
+
 }
 
 .owl-next {
-    border-width: 1px 1px 0 0;
+    border-width: 0 0 0 0;
     transform: rotate(45deg);
 }
 
@@ -115,6 +119,7 @@
     transition: all .15s ease;
     background-size: 100%;
     cursor: pointer;
+    margin-bottom: 0px;
 }
 
 .quotes-nav__dot--1 {

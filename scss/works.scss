@@ -3,6 +3,7 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    
 
     &:last-child {
         justify-content: center;
@@ -10,17 +11,19 @@
 }
 
 .works__title {
-    margin-top: 0;
+    margin-top: -5px;
     margin-bottom: 0;
 }
 
 .works__link--dribble {
     font-weight: 300;
-    font-size: 0.825rem;
+    font-size: 14px;
     line-height: 1.2em;
     font-family: "Roboto", "Arial", sans-serif;
     letter-spacing: 0.05em;
     text-decoration: none;
+    margin-top: -3px;
+    margin-right: 5px;
     color: #000000;
     padding-right: 14px;
     position: relative;
@@ -44,9 +47,9 @@
     margin: 0;
     padding: 0;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-content: flex-start;
+    min-height: 200px;
 }
 
 .gallery__item {
@@ -66,4 +69,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.btn--works {
+    width: 110px;
+    margin-top: -3px;
 }

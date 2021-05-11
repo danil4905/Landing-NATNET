@@ -17,8 +17,8 @@
 .header-menu {
     font-weight: 900;
     font-size: 0.813rem;
-    letter-spacing: 0.025em;
-    line-height: 1.2em;
+    letter-spacing: 0.0265em;
+    line-height: 10px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     display: flex;
@@ -72,10 +72,11 @@
 
 .header-menu__item {
     display: flex;
+    margin-left: 3px;
 }
 
 .header-menu__link {
-    padding: 20px 10px;
+    padding: 25px 10px;
     text-decoration: none;
     color: #ffffff;
     transition: all .5s ease;

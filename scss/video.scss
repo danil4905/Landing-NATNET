@@ -5,13 +5,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -7px;
 }
 
 .video-btn {
     display: block;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.2em;
+    font-size: 17px;
+    margin-left: -8px;
+    letter-spacing: 0.1px;
+    line-height: 1.1em;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;

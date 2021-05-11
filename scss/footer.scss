@@ -15,23 +15,37 @@
 }
 
 .footer__col {
-    max-width: 300px;
+    max-width: 320px;
     margin-bottom: 20px;
 }
 
 .footer__logo {
     margin: 0 0 19px 0;
 }
-
 .footer__title {
     margin-bottom: 40px;
+    margin-top: 15px;
+    // margin-left: -20px;
+}
+.stay,
+.subscribe-form,
+.soc {
+    margin-right: 32px;
+}
+.footer__text {
+    margin-left: 0;
+    letter-spacing: 0.4px;
+    line-height: 26px;
 }
 
 .adr,
 .tel {
     padding-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: -6px;
+    margin-left: -5px;
     position: relative;
+    line-height: 25px;
 }
 
 .adr__icon,
@@ -50,19 +64,25 @@
     fill: #00e0d0;
 }
 
-.tel abbr {
+.tel a {
     text-decoration: none;
+    color: #00e0d0;
 }
+
 
 .subscribe-form {
     display: flex;
     margin-bottom: 20px;
-    max-width: 300px;
+    max-width:280px;
+    margin-top: -3px;
+    
 }
 
 .subscribe-form__input {
     display: inline;
     margin-right: 10px;
+    letter-spacing: 0.7px;
+    padding: 12px;
 }
 
 .btn--subscribe-form {

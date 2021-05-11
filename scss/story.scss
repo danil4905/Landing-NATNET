@@ -5,7 +5,7 @@
 }
 
 .logo-large {
-    padding: 0 40px 40px;
+    padding: 0 63px 40px;
     width: 235px;
     height: 229px;
 }
@@ -18,11 +18,13 @@
 }
 
 .story__title {
-    margin-top: 0px;
+    margin-top: -7px;
+    margin-bottom: 22px;
 }
 
 .story__text {
     min-width: 300px;
     max-width: 540px;
-    margin: 0 0 30px;
+    margin: 0 0 33px;
+    letter-spacing: 0.44px;
 }

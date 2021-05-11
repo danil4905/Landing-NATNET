@@ -257,10 +257,15 @@ var ModalVideo = function () {
           }, speed);
         });
         modal.addEventListener('keydown', function (e) {
-          if (e.which === 9) {
+          if (e.which === 27 || 8) {
             e.preventDefault();
             if (document.activeElement === modal) {
               btn.focus();
+              (0, _util.addClass)(modal, classNames.modalVideoClose);
+              setTimeout(function () {
+                (0, _util.remove)(modal);
+                selector.focus();
+              }, speed);
             } else {
               modal.setAttribute('aria-label', '');
               modal.focus();
@@ -348,7 +353,7 @@ module.exports = require('./core/');
 },{"./core/":4}],6:[function(require,module,exports){
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, "__esModule", { 
   value: true
 });
 var append = exports.append = function append(element, string) {
